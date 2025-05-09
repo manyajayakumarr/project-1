@@ -11,9 +11,14 @@ html{
     background-color: black;
     color: white;
 }
+
 .mainhead{
     display: flex;
     justify-content: space-evenly;
+    
+}
+header{
+    position: sticky;top: 0;
 }
 .head1{
     margin-top: 4px;
@@ -47,7 +52,13 @@ html{
     padding-top:10px ;
     border-radius: 5px;
     margin-top: 10px;
+    transition: all o.5s;
+    cursor: pointer;
  
+}
+.head3:hover{
+    background-color: rgb(229, 229, 253);
+    color: black;
 }
 nav{
     margin-top: 40px;
@@ -115,6 +126,7 @@ footer{
 .primelogo{ 
     margin-left:600px;
     margin-top: 10px;
+  
 }
 pre{
     background-color:rgb(32, 32, 32) ;
