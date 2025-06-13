@@ -116,12 +116,12 @@ margin-left: 100px;
 .set21{
     font-weight: bolder;
     margin-top: 100px;
-    font-size: 35px;
+    font-size: 40px;
     margin-left: 50px;
 }
 .set22{
     margin-left: 50px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bolder;
 }
 
@@ -145,4 +145,46 @@ margin-left: 100px;
     transform: scale(1.15); 
     z-index: 10; 
   }
- 
+  .set25 {
+    display: flex;
+    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .set26 {
+    width: 330px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+    position: relative;
+  }
+  
+  .set26:hover {
+    transform: scale(1.15); 
+    z-index: 10; 
+  }
+  #arrow{
+    rotate: 270deg;
+  }
+  .sub0{
+    margin-left: 50px;
+    margin-top: 20px;
+   display: flex;
+  }
+  .sub1{
+    font-size: 25px;
+    font-weight:bold;
+    gap: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+  }
+  .sub2{
+     margin-left: 25px;
+    margin-top: 6px;
+    font-size:20px ;
+  }
+  .sub3{
+    rotate: 270deg;
+    margin-top: 5px;
+  }
