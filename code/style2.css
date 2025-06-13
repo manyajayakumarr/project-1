@@ -188,3 +188,24 @@ margin-left: 100px;
     rotate: 270deg;
     margin-top: 5px;
   }
+  footer{
+    position:relative;
+    margin-top: 300px;
+    height: 180px;
+    background-color:rgb(32, 32, 32);
+}
+  .primelogo{ 
+    margin-left:600px;
+    margin-top: 10px;
+  
+}
+.pre1{
+    background-color:rgb(32, 32, 32) ;
+   font-size: 15px;
+   text-align: center; 
+   margin-top: 10px;
+   color: rgb(87, 86, 86);
+}
+#pre01{
+    color: rgb(92, 117, 185);
+}
